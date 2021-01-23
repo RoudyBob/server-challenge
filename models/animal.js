@@ -11,6 +11,10 @@ module.exports = function(sequelize, DataTypes){
     predator: {
       type: DataTypes.BOOLEAN,
       allowNull: false
+    },
+    userID: {
+      type: DataTypes.INTEGER,
+      allowNull: false
     }
   })
 }
